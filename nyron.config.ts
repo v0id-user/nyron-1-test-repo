@@ -1,10 +1,10 @@
 import { defineConfig } from "@nyron/cli/config"
 
 export default defineConfig({
-  repo: "owner/repo",
+  repo: "v0id-user/nyron-1-test-repo",
   projects: {
     sdk: {
-      tagPrefix: "@my-package/sdk@",
+      tagPrefix: "sdk@",
       path: "packages/sdk",
     },
     service: {

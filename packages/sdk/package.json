@@ -1,10 +1,10 @@
 {
-  "name": "nyron-1",
+  "name": "sdk",
   "module": "index.ts",
+  "version": "0.1.0",
   "type": "module",
   "private": true,
   "devDependencies": {
-    "@nyron/cli": "^0.3.3",
     "@types/bun": "latest"
   },
   "peerDependencies": {

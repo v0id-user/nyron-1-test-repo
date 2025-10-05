@@ -4,7 +4,7 @@
     "": {
       "name": "nyron-1",
       "devDependencies": {
-        "@nyron/cli": "^0.1.4",
+        "@nyron/cli": "^0.3.3",
         "@types/bun": "latest",
       },
       "peerDependencies": {
@@ -17,7 +17,7 @@
 
     "@kwsites/promise-deferred": ["@kwsites/promise-deferred@1.1.1", "", {}, "sha512-GaHYm+c0O9MjZRu0ongGBRbinu8gVAMd2UZjji6jVmqKtZluZnptXGWhz1E8j8D2HJ3f/yMxKAUC0b+57wncIw=="],
 
-    "@nyron/cli": ["@nyron/cli@0.1.4", "", { "dependencies": { "commander": "^14.0.1", "dotenv": "^17.2.3", "octokit": "^5.0.3", "semver": "^7.7.2", "simple-git": "^3.28.0" }, "peerDependencies": { "typescript": "^5" }, "bin": { "nyron": "dist/index.js" } }, "sha512-U8xFwerarvwyHje/+ZId/sNurdeDx8/k3li1qEkOXcPlvYRnI6ikFWK+3JFIv7R3gOwluAnFyTqnarOj5ogLIQ=="],
+    "@nyron/cli": ["@nyron/cli@0.3.3", "", { "dependencies": { "commander": "^14.0.1", "dotenv": "^17.2.3", "handlebars": "^4.7.8", "octokit": "^5.0.3", "semver": "^7.7.2", "simple-git": "^3.28.0" }, "peerDependencies": { "typescript": "^5" }, "bin": { "nyron": "dist/index.js" } }, "sha512-jrTuj/NM9NKAwcxkuJegt3ZPI2CoDQHYlQxxzp1siMZ1TcK3E+9sUWJH2nzbuRGQaanH9CZLqphAxu+WLFRf3g=="],
 
     "@octokit/app": ["@octokit/app@16.1.1", "", { "dependencies": { "@octokit/auth-app": "^8.1.1", "@octokit/auth-unauthenticated": "^7.0.2", "@octokit/core": "^7.0.5", "@octokit/oauth-app": "^8.0.2", "@octokit/plugin-paginate-rest": "^13.2.0", "@octokit/types": "^15.0.0", "@octokit/webhooks": "^14.0.0" } }, "sha512-pcvKSN6Q6aT3gU5heoDFs3ywU5xejxeqs1rQpUwgN7CmBlxCSy9aCoqFuC6GpVv71O/Qq/VuYfCNzrOZp/9Ycw=="],
 
@@ -93,7 +93,13 @@
 
     "fast-content-type-parse": ["fast-content-type-parse@3.0.0", "", {}, "sha512-ZvLdcY8P+N8mGQJahJV5G4U88CSvT1rP8ApL6uETe88MBXrBHAkZlSEySdUlyztF7ccb+Znos3TFqaepHxdhBg=="],
 
+    "handlebars": ["handlebars@4.7.8", "", { "dependencies": { "minimist": "^1.2.5", "neo-async": "^2.6.2", "source-map": "^0.6.1", "wordwrap": "^1.0.0" }, "optionalDependencies": { "uglify-js": "^3.1.4" }, "bin": { "handlebars": "bin/handlebars" } }, "sha512-vafaFqs8MZkRrSX7sFVUdo3ap/eNiLnb4IakshzvP56X5Nr1iGKAIqdX6tMlm6HcNRIkr6AxO5jFEoJzzpT8aQ=="],
+
+    "minimist": ["minimist@1.2.8", "", {}, "sha512-2yyAR8qBkN3YuheJanUpWC5U3bb5osDywNB8RzDVlDwDHbocAJveqqj1u8+SVD7jkWT4yvsHCpWqqWqAxb0zCA=="],
+
     "ms": ["ms@2.1.3", "", {}, "sha512-6FlzubTLZG3J2a/NVCAleEhjzq5oxgHyaCU9yYXvcLsvoVaHJq/s5xXI6/XXP6tz7R9xAOtHnSO/tXtF3WRTlA=="],
+
+    "neo-async": ["neo-async@2.6.2", "", {}, "sha512-Yd3UES5mWCSqR+qNT93S3UoYUkqAZ9lLg8a7g9rimsWmYGK8cVToA4/sF3RrshdyV3sAGMXVUmpMYOw+dLpOuw=="],
 
     "octokit": ["octokit@5.0.3", "", { "dependencies": { "@octokit/app": "^16.0.1", "@octokit/core": "^7.0.2", "@octokit/oauth-app": "^8.0.1", "@octokit/plugin-paginate-graphql": "^6.0.0", "@octokit/plugin-paginate-rest": "^13.0.0", "@octokit/plugin-rest-endpoint-methods": "^16.0.0", "@octokit/plugin-retry": "^8.0.1", "@octokit/plugin-throttling": "^11.0.1", "@octokit/request-error": "^7.0.0", "@octokit/types": "^14.0.0", "@octokit/webhooks": "^14.0.0" } }, "sha512-+bwYsAIRmYv30NTmBysPIlgH23ekVDriB07oRxlPIAH5PI0yTMSxg5i5Xy0OetcnZw+nk/caD4szD7a9YZ3QyQ=="],
 
@@ -101,15 +107,21 @@
 
     "simple-git": ["simple-git@3.28.0", "", { "dependencies": { "@kwsites/file-exists": "^1.1.1", "@kwsites/promise-deferred": "^1.1.1", "debug": "^4.4.0" } }, "sha512-Rs/vQRwsn1ILH1oBUy8NucJlXmnnLeLCfcvbSehkPzbv3wwoFWIdtfd6Ndo6ZPhlPsCZ60CPI4rxurnwAa+a2w=="],
 
+    "source-map": ["source-map@0.6.1", "", {}, "sha512-UjgapumWlbMhkBgzT7Ykc5YXUT46F0iKu8SGXq0bcwP5dz/h0Plj6enJqjz1Zbq2l5WaqYnrVbwWOWMyF3F47g=="],
+
     "toad-cache": ["toad-cache@3.7.0", "", {}, "sha512-/m8M+2BJUpoJdgAHoG+baCwBT+tf2VraSfkBgl0Y00qIWt41DJ8R5B8nsEw0I58YwF5IZH6z24/2TobDKnqSWw=="],
 
     "typescript": ["typescript@5.9.3", "", { "bin": { "tsc": "bin/tsc", "tsserver": "bin/tsserver" } }, "sha512-jl1vZzPDinLr9eUt3J/t7V6FgNEw9QjvBPdysz9KfQDD41fQrC2Y4vKQdiaUpFT4bXlb1RHhLpp8wtm6M5TgSw=="],
+
+    "uglify-js": ["uglify-js@3.19.3", "", { "bin": { "uglifyjs": "bin/uglifyjs" } }, "sha512-v3Xu+yuwBXisp6QYTcH4UbH+xYJXqnq2m/LtQVWKWzYc1iehYnLixoQDN9FH6/j9/oybfd6W9Ghwkl8+UMKTKQ=="],
 
     "undici-types": ["undici-types@7.13.0", "", {}, "sha512-Ov2Rr9Sx+fRgagJ5AX0qvItZG/JKKoBRAVITs1zk7IqZGTJUwgUr7qoYBpWwakpWilTZFM98rG/AFRocu10iIQ=="],
 
     "universal-github-app-jwt": ["universal-github-app-jwt@2.2.2", "", {}, "sha512-dcmbeSrOdTnsjGjUfAlqNDJrhxXizjAz94ija9Qw8YkZ1uu0d+GoZzyH+Jb9tIIqvGsadUfwg+22k5aDqqwzbw=="],
 
     "universal-user-agent": ["universal-user-agent@7.0.3", "", {}, "sha512-TmnEAEAsBJVZM/AADELsK76llnwcf9vMKuPz8JflO1frO8Lchitr0fNaN9d+Ap0BjKtqWqd/J17qeDnXh8CL2A=="],
+
+    "wordwrap": ["wordwrap@1.0.0", "", {}, "sha512-gvVzJFlPycKc5dZN4yPkP8w7Dc37BtP1yczEneOb4uq34pXZcvrtRTmWV8W+Ume+XCxKgbjM+nevkyFPMybd4Q=="],
 
     "@octokit/app/@octokit/types": ["@octokit/types@15.0.0", "", { "dependencies": { "@octokit/openapi-types": "^26.0.0" } }, "sha512-8o6yDfmoGJUIeR9OfYU0/TUJTnMPG2r68+1yEdUeG2Fdqpj8Qetg0ziKIgcBm0RW/j29H41WP37CYCEhp6GoHQ=="],
 
