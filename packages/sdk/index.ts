@@ -1,1 +1,1 @@
-console.log("Hello via Bun!");
+console.log("👋 Welcome! Running with Bun 🥖");
