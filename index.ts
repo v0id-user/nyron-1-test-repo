@@ -1,8 +1,8 @@
 export function doWork() {
-  // Simulate doing some work
-  let result = 0;
-  for (let i = 1; i <= 10; i++) {
-    result += i;
+  // Simulate doing some other work: multiply numbers from 1 to 5
+  let result = 1;
+  for (let i = 1; i <= 5; i++) {
+    result *= i;
   }
-  return `Work done! Result: ${result}`;
+  return `Other work done! Product: ${result}`;
 }
