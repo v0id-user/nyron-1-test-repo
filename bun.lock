@@ -4,7 +4,7 @@
     "": {
       "name": "nyron-1",
       "devDependencies": {
-        "@nyron/cli": "^0.1.4",
+        "@nyron/cli": "^0.1.8",
         "@types/bun": "latest",
       },
       "peerDependencies": {
@@ -17,7 +17,7 @@
 
     "@kwsites/promise-deferred": ["@kwsites/promise-deferred@1.1.1", "", {}, "sha512-GaHYm+c0O9MjZRu0ongGBRbinu8gVAMd2UZjji6jVmqKtZluZnptXGWhz1E8j8D2HJ3f/yMxKAUC0b+57wncIw=="],
 
-    "@nyron/cli": ["@nyron/cli@0.1.4", "", { "dependencies": { "commander": "^14.0.1", "dotenv": "^17.2.3", "octokit": "^5.0.3", "semver": "^7.7.2", "simple-git": "^3.28.0" }, "peerDependencies": { "typescript": "^5" }, "bin": { "nyron": "dist/index.js" } }, "sha512-U8xFwerarvwyHje/+ZId/sNurdeDx8/k3li1qEkOXcPlvYRnI6ikFWK+3JFIv7R3gOwluAnFyTqnarOj5ogLIQ=="],
+    "@nyron/cli": ["@nyron/cli@0.1.8", "", { "dependencies": { "commander": "^14.0.1", "dotenv": "^17.2.3", "octokit": "^5.0.3", "semver": "^7.7.2", "simple-git": "^3.28.0" }, "peerDependencies": { "typescript": "^5" }, "bin": { "nyron": "dist/index.js" } }, "sha512-N7AbWF3J4rpYnR8afB25FKfTzFptnfeJKhJhP0W5WxQFto1zHd7rlgknu6L9l1oO/NZw2kFRKXyHh0BcGZSyTA=="],
 
     "@octokit/app": ["@octokit/app@16.1.1", "", { "dependencies": { "@octokit/auth-app": "^8.1.1", "@octokit/auth-unauthenticated": "^7.0.2", "@octokit/core": "^7.0.5", "@octokit/oauth-app": "^8.0.2", "@octokit/plugin-paginate-rest": "^13.2.0", "@octokit/types": "^15.0.0", "@octokit/webhooks": "^14.0.0" } }, "sha512-pcvKSN6Q6aT3gU5heoDFs3ywU5xejxeqs1rQpUwgN7CmBlxCSy9aCoqFuC6GpVv71O/Qq/VuYfCNzrOZp/9Ycw=="],
 

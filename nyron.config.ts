@@ -4,7 +4,7 @@ export default defineConfig({
   repo: "owner/repo",
   projects: {
     sdk: {
-      tagPrefix: "@my-package/sdk@",
+      tagPrefix: "sdk@",
       path: "packages/sdk",
     },
     service: {
